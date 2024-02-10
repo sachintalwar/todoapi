@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: todoapp
-          image: talwarsachin4/todoapi:1.0
+          image: talwarsachin4/todoapi:1.BUILDNUMBER
           env:
             - name: MYSQL_HOST
               value: svc-db-clusterip.tododev.svc.cluster.local
