@@ -31,7 +31,7 @@ spec:
           image: talwarsachin4/todoapi:1.BUILDNUMBER
           env:
             - name: MYSQL_HOST
-              value: svc-db-clusterip.tododev.svc.cluster.local
+              value: svc-db-clusterip.sacheender.svc.cluster.local
             - name: MYSQL_USER
               value: root
             - name: MYSQL_PASSWORD
