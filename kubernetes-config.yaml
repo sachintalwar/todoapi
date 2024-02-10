@@ -81,7 +81,7 @@ spec:
     spec:
       containers:
         - name: tododb
-          image: talwarsachin4/mysql:2.0
+          image: talwarsachin4/mysql:3.0
           env:
             - name: MYSQL_ROOT_PASSWORD
               value: P@ssw0rd
